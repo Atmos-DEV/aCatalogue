@@ -1,11 +1,6 @@
 fx_version 'bodacious'
 game 'gta5'
 
-shared_scripts {
-    "shared/*.lua"
-}
-
-
 server_scripts {
     "@mysql-async/lib/MySQL.lua",
     "server/*.lua",
